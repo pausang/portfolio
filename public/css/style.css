@@ -476,14 +476,14 @@ textarea.form-control::-webkit-input-placeholder {
 
 .btn-secondary:hover {
   background: #373640;
-  color: #c0b283;
+  color: #5d63ba;
 }
 .fa-angle-right {
   color: #000000;
   font-size: 1rem;
 }
 .fa-angle-right:hover {
-  color: #c0b283;
+  color: #5d63ba;
 }
 
 .closing-toggle {
@@ -518,7 +518,7 @@ textarea.form-control::-webkit-input-placeholder {
     padding-left: 0;
   }
   .navbar .navbar-collapse ul:last-child li:last-child a:last-child {
-    color: #c0b283 !important;
+    color: #5d63ba !important;
   }
   .navbar-nav,
   .nav-item,

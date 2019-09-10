@@ -17,8 +17,7 @@ var project1 = {
     'public/images/clicky.png'
   ],
   text:
-    'Create a memory game with React. This application's UI into components, 
-     manage component state , and respond to user events.',
+    'Create a memory game with React. This application should keep track of the user score',
   hrefS: [
     'https://github.com/pausang/my-app',
     
@@ -30,7 +29,7 @@ var project2 = {
   name: 'Eat-Da-Burger!',
   info: 'Role: Full-Stack Developer',
   imgs: [
-    'public/images/burger.png',
+    'public/images/burger.png'
   ],
   text:
     "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like eat so the app stores every burger in an online database. This Full-Stack App features MySQL, Node, Express and Handlebars.",
@@ -43,7 +42,7 @@ var project3 = {
   name: 'FriendFinder',
   info: 'Role: Full-Stack Developer',
   imgs: [
-    'public/images/friendfinder.png',
+    'public/images/friendfinder.png'
     
   ],
   text:
@@ -57,14 +56,14 @@ var project4 = {
   name: 'Bamazon',
   info: 'Role: Back-End Developer',
   imgs: [
-    'public/images/bamazon.png',
+    'public/images/bamazon.png'
     
     
   ],
   text:
     "Bamazon is an Amazon-like storefront that runs with MySQL as Database. This back-end app takes in orders from customers and deplete stock from the store's inventory. It features Node, front and back-end JS and, plain HTML and CSS.",
   hrefS: [
-    'https://github.com/pausang/bamazon',
+    'https://github.com/pausang/bamazon'
     
   ]
 };
