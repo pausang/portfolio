@@ -1,0 +1,561 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@font-face {
+  font-family: baronNeue;
+  src: url('/public/css/fonts/baron_neue/BaronNeue.otf');
+}
+
+@font-face {
+  font-family: baronNeueBlack;
+  src: url('/public/css/fonts/baron_neue/BaronNeueBlack.otf');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: #373640;
+  overflow-x: hidden;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ---- SIDEBAR ----  */
+.sidebar {
+  min-height: 100vh;
+  background: #c0b283;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 0;
+  margin: 0;
+  list-style: none;
+  height: 100vh;
+}
+.n-i-t > i {
+  font-size: 1.2rem !important;
+  color: #5a5a5a;
+}
+
+/*
+  ========================================
+  Navbar
+  ========================================
+*/
+.navbar {
+  background: #c0b283;
+}
+
+.navbar-brand {
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.navbar-nav,
+.nav-item,
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.link-custom {
+  color: rgb(105, 105, 105);
+  font-weight: 700;
+}
+.link-custom:hover {
+  color: #c0b283;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.fa-linkedin,
+.fa-linkedin-in,
+.fa-github,
+.fa-envelope,
+.fa-github-square,
+.fa-home {
+  color: #ffffff !important;
+  font-size: 1rem;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: #a5a5a5;
+  font-size: 0.5rem;
+}
+
+.footer-li > .navlink-bo-1 {
+  font-size: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*
+  ========================================
+  Modal
+  ========================================
+*/
+
+.modal {
+  border-radius: 0% !important;
+}
+
+.modal {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.close {
+  color: #e93c2c;
+}
+
+/* ---- LANDING----  */
+
+.container-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 93vh;
+}
+
+.landing-inner {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.landing-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-landing {
+  font-size: 1.5rem;
+  color: #c0b283;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-family: baronNeueBlack;
+}
+
+.line-break {
+  background: #c0b283;
+  width: 4rem;
+  height: 3px;
+}
+.second-landing {
+  margin-top: 8%;
+}
+
+.subtext {
+  color: #ffffff;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.btn-rounded-gold {
+  border: none;
+  background: #c0b283;
+  margin-top: 50px;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  color: rgb(68, 68, 68);
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  text-transform: none;
+}
+.btn-rounded-gold:hover {
+  background: #ffffff;
+  color: #c0b283;
+}
+.btn-rounded-gold > i {
+  margin-top: 5px;
+  font-size: 2.5rem;
+}
+
+.btn-white-1 {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 0;
+}
+
+/* ---- ABOUT ----  */
+
+.about-section {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Montserrat';
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  line-height: 1.3rem;
+  padding: 25px;
+  background: rgb(255, 255, 255);
+}
+
+.about-section > img {
+  border-radius: 50%;
+  width: 120px;
+  align-items: center;
+  display: block;
+  border: 4px solid #c0b283;
+}
+
+.aboutmehead-1 {
+  color: #000000;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: 'Montserrat';
+}
+.link-about {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: black;
+  margin-top: 40px;
+  border-bottom: #c0b283 solid 5px;
+}
+
+.link-about:hover {
+  color: #c0b283;
+}
+.link-about > i {
+  left: 200px;
+  bottom: 2px;
+}
+
+/* ---- PORTFOLIO----  */
+
+.portfolio {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.overlay-content-section img {
+  width: 30%;
+  height: auto;
+}
+
+.project-content {
+  background-color: #ffffff;
+  min-height: 85vh;
+  padding: 70px 30px 25px 30px;
+}
+
+.ProjectName {
+  color: #000000;
+  margin-top: 0px;
+  font-size: 1.4rem;
+
+  letter-spacing: 2px;
+  text-transform: lowercase;
+
+  font-family: baronNeue;
+}
+.text-container-inner {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 1.4rem;
+  letter-spacing: 0.8px;
+}
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(117, 117, 117, 0.541);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.gallery {
+  display: none;
+  margin: 10px 0;
+}
+
+.gallery > img:hover {
+  transform: scale(2);
+}
+
+#btn-display {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background: #00000062;
+  border: none;
+  border-radius: 0%;
+  font-size: 0.6rem;
+  padding: 10px;
+}
+
+.links-port {
+  margin-top: 100px;
+}
+
+.links-port > li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 0.4rem;
+}
+.btn-custom {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background: #20202054;
+  border: none;
+  border-radius: 0%;
+  font-size: 0.6rem;
+}
+.under-1 {
+  background: #c0b283;
+}
+.under-2 {
+  background: #fd9270;
+  color: black;
+}
+
+/* ---- PORTFOLIO RIGHT PART ----  */
+
+.right-test {
+  min-height: 75vh;
+  padding: 25px 0;
+  text-align: center;
+  background-color: #c0b283;
+}
+.menu__link {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 8px 0;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #454d55;
+  line-height: 1rem;
+  letter-spacing: 0.8px;
+}
+.menu__link:hover {
+  color: rgb(255, 255, 255);
+}
+.menu__list {
+  list-style-type: none;
+}
+.projectsub {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #454d55;
+}
+
+/* ----- CONTACT ---- */
+.contact-section {
+  margin-top: auto;
+  margin-bottom: auto;
+  background: white;
+  padding: 25px;
+}
+
+.title-contact {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about-inner-text {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 1.4rem;
+  letter-spacing: 0.8px;
+}
+
+.about-inner-text-contact-footer {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 1.4rem;
+  /* letter-spacing: 0.8px; */
+}
+input[type='text'].form-control::-webkit-input-placeholder,
+input[type='email'].form-control::-webkit-input-placeholder,
+textarea.form-control::-webkit-input-placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  font-size: 0.7rem;
+  border-width: 0px;
+  border: none;
+  box-shadow: none;
+  margin: auto;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.labelfor {
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.form-control {
+  border: 0;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  border-radius: 0%;
+  background: transparent;
+  padding-left: 0;
+}
+
+.modal-header,
+.modal-footer {
+  border-radius: 0%;
+  border: 0;
+}
+
+.btn-secondary {
+  background: #c0b283;
+  border: 0;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  padding: 15px 10px;
+}
+
+.btn-secondary:hover {
+  background: #373640;
+  color: #c0b283;
+}
+.fa-angle-right {
+  color: #000000;
+  font-size: 1rem;
+}
+.fa-angle-right:hover {
+  color: #c0b283;
+}
+
+.closing-toggle {
+  color: #373640;
+  position: absolute;
+  right: 10px;
+  top: 85px;
+  z-index: 10;
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+.closing-toggle:hover {
+  color: #373640;
+}
+
+/* ---- 13. MEDIA QUERIES ----  */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    overflow-y: hidden;
+  }
+  .navbar-brand {
+    color: #ffffff38 !important;
+  }
+  .navbar {
+    padding-left: 0;
+  }
+  .navbar .navbar-collapse ul:last-child li:last-child a:last-child {
+    color: #c0b283 !important;
+  }
+  .navbar-nav,
+  .nav-item,
+  .nav-link {
+    color: #d8d8d8 !important;
+  }
+  .main-heading {
+    font-size: 7rem;
+  }
+  .navbar {
+    background: #373640;
+    border-bottom: 5px solid #c0b28383;
+  }
+  .btn-rounded-gold {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+
+  .project-content {
+    min-height: 78vh;
+    padding: 75px 75px 0 75px;
+  }
+  .right-test {
+    min-height: 70vh;
+    padding-top: 50px;
+  }
+  .about-section {
+    padding: 70px;
+  }
+  .contact-section {
+    padding: 70px 70px 55px 70px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

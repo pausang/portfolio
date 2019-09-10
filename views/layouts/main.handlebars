@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>PauSang Portfolio</title>
+
+  <!-- MAIN CSS FILES -->
+  <link rel="shortcut icon" href="/public/images/favicon.ico" />
+  <link rel="icon" type="image/png" href="/public/images/favicon-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/images/apple-touch-icon-180x180.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="/public/css/style.css" />
+</head>
+
+<body>
+
+  <div class="">
+    <div class="row">
+
+      <div class="col-sm-12 col-md-10 offset-md-2">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+          <a class="navbar-brand" href="/"> PAU SANG</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/portfolio">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1 sidebar d-none d-md-block">
+        <ul class="nav text-center nav-left">
+          <li class="nav-item">
+            <a class="nav-link n-i-t" href="https://www.linkedin.com/in/pau-sang/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link n-i-t" href="https://github.com/pausang" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link n-i-t" href="/contact"><i class="far fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {{{ body }}}
+
+  <!-- Footer -->
+  <footer class="footer d-block d-md-none container-footer ">
+    <ul class="nav footer-ul">
+      <li class="nav-item footer-li">
+        <small class="nav-link navlink-bo-1">
+          &copy; <span id="year"></span> All Rights Reserved
+        </small>
+      </li>
+      <li class="nav-item footer-li ml-auto d-block d-md-none">
+        <small class="nav-link navlink-bo-1">
+          <a href="https://github.com/pausang" class="mx-1" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </small>
+      </li>
+      <li class="nav-item footer-li d-block d-md-none">
+        <small class="nav-link navlink-bo-1">
+          <a href="https://www.linkedin.com/in/pau-sang/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </small>
+      </li>
+      <li class="nav-item footer-li d-block d-md-none">
+        <small class="nav-link navlink-bo-1">
+          <a href="/contact">
+            <i class="far fa-envelope"></i>
+          </a>
+        </small>
+      </li>
+    </ul>
+  </footer>
+
+  <!--MODAL-->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div modal="modal-body" class="pt-2 pb-4 px-4 text-center">
+          <h3 class="about-inner-text" id="modalBody"></h3>
+        </div>
+
+        <div modal="modal-footer" class="px-4 pb-2 text-center">
+          <h3 class="about-inner-text">Pau Sang
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+    crossorigin="anonymous "></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T "
+    crossorigin="anonymous "></script>
+  <script src="/public/js/app.js"></script>
+  <script>
+    //Get the current year of the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>
