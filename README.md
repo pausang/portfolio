@@ -1,2 +1,6 @@
-This project contents all code related with my personal portfolio. It features Node.js as server side holder and Nodemailer as mail processor. 
+This project contents all code related with my personal portfolio. 
 Deployed Site: 
+https://git.heroku.com/guarded-dawn-09235.git
+
+https://guarded-dawn-09235.herokuapp.com/ 
+
