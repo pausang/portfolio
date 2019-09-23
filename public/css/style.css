@@ -15,7 +15,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   width: 100%;
-  background: #373640;
+  background: #345c7c;
   overflow-x: hidden;
 }
 
@@ -26,7 +26,7 @@ a:hover {
 /* ---- SIDEBAR ----  */
 .sidebar {
   min-height: 100vh;
-  background: #c0b283;
+  background: #be953d;
   position: absolute;
   left: 0;
   top: 0;
@@ -52,7 +52,7 @@ a:hover {
   ========================================
 */
 .navbar {
-  background: #c0b283;
+  background: #40b0e4;
 }
 
 .navbar-brand {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .link-custom {
-  color: rgb(105, 105, 105);
+  color: rgb(216, 120, 91);
   font-weight: 700;
 }
 .link-custom:hover {
@@ -512,7 +512,7 @@ textarea.form-control::-webkit-input-placeholder {
     overflow-y: hidden;
   }
   .navbar-brand {
-    color: #ffffff38 !important;
+    color: #ebe7e7bb !important;
   }
   .navbar {
     padding-left: 0;
